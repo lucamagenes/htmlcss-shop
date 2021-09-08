@@ -21,6 +21,11 @@
     transition: all;
 }
 
+.foto_1 {
+    width: 100%;
+    transition: all;
+}
+
 img:hover {
     opacity: 0;
 }
@@ -31,6 +36,8 @@ img:hover {
     top: 0;
     left: 0;
     z-index: -1;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .clearfix {
