@@ -25,10 +25,12 @@ img:hover {
     opacity: 0;
 }
 
-.foto_2 .img {
+.foto_2 {
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -1;
 }
 
 .clearfix {
