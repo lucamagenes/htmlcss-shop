@@ -44,7 +44,7 @@ img:hover {
     padding-bottom: 0.5rem;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
